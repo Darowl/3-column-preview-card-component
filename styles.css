@@ -49,8 +49,12 @@ a{
   padding: 2.5rem 2rem ;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   gap: 1.8em;
+}
+
+.container-logo {
+  justify-self: flex-end;
 }
 
 .container-title {
