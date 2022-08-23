@@ -42,6 +42,7 @@ a{
   grid-template-rows: 1fr 1fr 1fr;
   margin: 1.5rem;
   width: min(30ch, 100% - 4rem);
+  padding-top: 2.5rem;
 }
 
 .container > section {
@@ -130,7 +131,12 @@ footer {
   .container{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    width: min(70ch, 100% - 4rem);
+    width: min(80ch, 100% - 3rem);
+  }
+  
+  .container > section {
+    margin-top: 3.5rem;
+    /* padding: 2.5rem; */
   }
 
   .container-desc {
